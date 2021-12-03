@@ -55,7 +55,7 @@ let listeVoiture = ["Renault","Volvo","Citroen"];
 
 let maVoiture = listeVoiture[1];
 
-listeVoiture[0] = "Ford";
+listeVoiture.splice(0,1, "ford");
 
 alert(listeVoiture.length);
 
