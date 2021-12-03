@@ -12,9 +12,9 @@ let prenom = "John";
 let nom = "doe";
 let age = 35;
 
-// alert(10/2);
-//
-// alert(15%9);
+alert(10/2);
+
+alert(15%9);
 
 let l = 10;
 let k = 5;
@@ -25,7 +25,7 @@ function maFonction (){
     alert("Salut tout le monde !");
 }
 
-// maFonction();
+maFonction();
 
 function maFonctionDeRetour (){
     return "Bonjour !"
